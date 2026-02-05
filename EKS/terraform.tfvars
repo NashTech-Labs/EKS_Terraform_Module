@@ -1,0 +1,10 @@
+region               = "us-east-1"
+cluster_name         = "by-terraform"
+kubernetes_version   = "1.33"
+node_instance_type   = "t3.micro"
+node_desired_capacity = 2
+node_min_size         = 2
+node_max_size         = 2
+cidr                  = "10.0.0.0/16"  #for VPC
+ami_type              = "AL2023_x86_64_STANDARD"   #node AMI type
+capacity_type         = "ON_DEMAND"   #node capacity type
